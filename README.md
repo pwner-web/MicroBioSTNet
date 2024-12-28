@@ -34,7 +34,7 @@ Once downloaded, extract the archive and place the contents into the `checkpoint
 
 ## Usage
 The program supports command-line arguments to configure runtime options. Below is a summary of the main parameters:  
-
+<pre>
 usage: program.py [-h] [--enable-cuda] [--lstm] [--num_timesteps_input NUM_TIMESTEPS_INPUT]  
                  [--num_timesteps_output NUM_TIMESTEPS_OUTPUT] [-e EPOCHS] [-b BATCH_SIZE]  
                  [-t THREADS] [-l {MSELoss,L1Loss}] -i INPUT -r [RATIO] -s SUBJECT  
@@ -54,7 +54,7 @@ optional arguments:
   -i, --input           Required: Set the input file path  
   -r, --ratio           Set ratio, default is 0.1  
   -s, --subject         Required: Set the subject name  
-
+</pre>
 
 ## Contact Information
 If you have any questions or need further assistance, please contact:  
