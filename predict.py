@@ -9,20 +9,10 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
-font = fm.FontProperties(size=5)
 import torch
 import torch.nn as nn
 from scipy import stats
 from scipy.stats import sem
-from scipy.interpolate import make_interp_spline
-from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.svm import SVR
-from sklearn.neural_network import MLPRegressor
-import xgboost as xgb
 import json
 from properscoring import crps_ensemble
 from pyecharts.charts import ThemeRiver
