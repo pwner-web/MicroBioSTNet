@@ -1,29 +1,29 @@
 # Microbial Sequencing Time Series Prediction Framework
 
-## Introduction
+## Introduction  
 
-This project provides a time series prediction framework specifically designed for microbial OTU (Operational Taxonomic Unit) abundance tables. With this framework, users can analyze microbiota data from different subjects and predict changes in microbial abundance at future time points. Our research results are detailed in an upcoming paper.
+This project provides a time series prediction framework specifically designed for microbial OTU (Operational Taxonomic Unit) abundance tables. With this framework, users can analyze microbiota data from different subjects and predict changes in microbial abundance at future time points. Our research results are detailed in an upcoming paper.  
 
 ## Data Sources
 
-- **Subject A**: From David, L.A., Materna, A.C., Friedman, J. et al. [Host lifestyle affects human microbiota on daily timescales](https://doi.org/10.1186/gb-2014-15-7-r89) (Genome Biol 15, R89, 2014).
-- **Subjects F4 and M3**: From Caporaso, J.G., Lauber, C.L., Costello, E.K. et al. [Moving pictures of the human microbiome](https://doi.org/10.1186/gb-2011-12-5-r50) (Genome Biol 12, R50, 2011).
+- **Subject A**: From David, L.A., Materna, A.C., Friedman, J. et al. [Host lifestyle affects human microbiota on daily timescales](https://doi.org/10.1186/gb-2014-15-7-r89) (Genome Biol 15, R89, 2014).  
+- **Subjects F4 and M3**: From Caporaso, J.G., Lauber, C.L., Costello, E.K. et al. [Moving pictures of the human microbiome](https://doi.org/10.1186/gb-2011-12-5-r50) (Genome Biol 12, R50, 2011).  
 
-## Directory Structure
-.
-├── data                    # Contains original OTU abundance tables and adjacency matrix binary files
-├── checkpoints             # Contains trained weight files and process files
-├── lib                     # Contains model architecture and preprocessing code
-├── results                 # Contains results presented in the paper
-└── examples                # Contains command scripts and cases for reproducing results in the paper
+## Directory Structure  
+.  
+├── data                    # Contains original OTU abundance tables and adjacency matrix binary files  
+├── checkpoints             # Contains trained weight files and process files  
+├── lib                     # Contains model architecture and preprocessing code  
+├── results                 # Contains results presented in the paper  
+└── examples                # Contains command scripts and cases for reproducing results in the paper  
 
 
-## Installation of Dependencies
+## Installation of Dependencies  
 
-Before using this framework, ensure that all necessary Python libraries are installed:
+Before using this framework, ensure that all necessary Python libraries are installed:  
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt  
 ```
 
 ## Usage
