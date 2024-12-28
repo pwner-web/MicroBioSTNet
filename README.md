@@ -26,10 +26,15 @@ Before using this framework, ensure that all necessary Python libraries are inst
 pip install -r requirements.txt  
 ```
 
+## Download Pre-trained Weights  
+
+Prior to running the program, please download the pre-trained model weights from [Google Drive](https://drive.google.com/drive/folders/19ZM7L4_L7fskJVzECu6tS0jEXR0oD-IS?usp=drive_link).  
+
+Once downloaded, extract the archive and place the contents into the `checkpoints` directory within your project folder. This step is crucial as it ensures that you have the necessary weights for the models to function properly.   
+
 ## Usage
 The program supports command-line arguments to configure runtime options. Below is a summary of the main parameters:  
 
-<pre>
 usage: program.py [-h] [--enable-cuda] [--lstm] [--num_timesteps_input NUM_TIMESTEPS_INPUT]  
                  [--num_timesteps_output NUM_TIMESTEPS_OUTPUT] [-e EPOCHS] [-b BATCH_SIZE]  
                  [-t THREADS] [-l {MSELoss,L1Loss}] -i INPUT -r [RATIO] -s SUBJECT  
@@ -49,7 +54,7 @@ optional arguments:
   -i, --input           Required: Set the input file path  
   -r, --ratio           Set ratio, default is 0.1  
   -s, --subject         Required: Set the subject name  
-</pre>
+
 
 ## Contact Information
 If you have any questions or need further assistance, please contact:  
