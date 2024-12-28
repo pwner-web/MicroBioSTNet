@@ -10,13 +10,14 @@ This project provides a time series prediction framework specifically designed f
 - **Subjects F4 and M3**: From Caporaso, J.G., Lauber, C.L., Costello, E.K. et al. [Moving pictures of the human microbiome](https://doi.org/10.1186/gb-2011-12-5-r50) (Genome Biol 12, R50, 2011).  
 
 ## Directory Structure  
+<pre>
 .  
 ├── data                    # Contains original OTU abundance tables and adjacency matrix binary files  
 ├── checkpoints             # Contains trained weight files and process files  
 ├── lib                     # Contains model architecture and preprocessing code  
 ├── results                 # Contains results presented in the paper  
 └── examples                # Contains command scripts and cases for reproducing results in the paper  
-
+</pre>
 
 ## Installation of Dependencies  
 
