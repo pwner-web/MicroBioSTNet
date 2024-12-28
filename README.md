@@ -63,6 +63,6 @@ optional arguments:
 ## Contact Information
 
 If you have any questions or need further assistance, please contact:
-Author: Gao Shichen
-Email: gaoshichend@163.com
-Date: 2024.12.28
+Author: Gao Shichen\n
+Email: gaoshichend@163.com\n
+Date: 2024.12.28\n
