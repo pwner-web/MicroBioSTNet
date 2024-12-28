@@ -34,28 +34,35 @@ usage: program.py [-h] [--enable-cuda] [--lstm] [--num_timesteps_input NUM_TIMES
                  [-t THREADS] [-l {MSELoss,L1Loss}] -i INPUT -r [RATIO] -s SUBJECT
 
 optional arguments:
-  -h, --help            Show this help message and exit
-  --enable-cuda         Enable CUDA acceleration (default off)
-  --lstm                Use LSTM model (default off)
-  --num_timesteps_input NUM_TIMESTEPS_INPUT
-                        Set the length of timesteps used for training, default is 12
-  --num_timesteps_output NUM_TIMESTEPS_OUTPUT
-                        Set the length of timesteps for prediction output, default is 1
-  -e, --epochs          Set the number of epochs, default is 200
-  -b, --batch_size      Set batch size, default is 8
-  -t, --threads         Set the number of threads to use, default is 120
-  -l, --loss_function   Set the type of loss function used for model training, default is L1Loss
-  -i, --input           Required: Set the input file path
-  -r, --ratio           Set ratio, default is 0.1
-  -s, --subject         Required: Set the subject name
+
+  -h, --help                                    Show this help message and exit
+  
+  --enable-cuda                                 Enable CUDA acceleration (default off)
+  
+  --lstm                                        Use LSTM model (default off)
+  
+  --num_timesteps_input NUM_TIMESTEPS_INPUT     Set the length of timesteps used for training, default is 12
+  
+  --num_timesteps_output NUM_TIMESTEPS_OUTPUT   Set the length of timesteps for prediction output, default is 1
+                        
+  -e, --epochs                                  Set the number of epochs, default is 200
+  
+  -b, --batch_size                              Set batch size, default is 8
+  
+  -t, --threads                                 Set the number of threads to use, default is 120
+  
+  -l, --loss_function                           Set the type of loss function used for model training, default is L1Loss
+  
+  -i, --input                                   Required: Set the input file path
+  
+  -r, --ratio                                   Set ratio, default is 0.1
+  
+  -s, --subject                                 Required: Set the subject name
 
 
 ## Contact Information
 
 If you have any questions or need further assistance, please contact:
-
 Author: Gao Shichen
-
 Email: gaoshichend@163.com
-
 Date: 2024.12.28
