@@ -24,7 +24,7 @@ Before using this framework, ensure that all necessary Python libraries are inst
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Usage
 The program supports command-line arguments to configure runtime options. Below is a summary of the main parameters:
