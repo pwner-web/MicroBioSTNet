@@ -2,7 +2,7 @@
 
 ## Introduction  
 
-This project provides a time series prediction framework specifically designed for microbial OTU (Operational Taxonomic Unit) abundance tables. With this framework, users can analyze microbiota data from different subjects and predict changes in microbial abundance at future time points. Our research results are detailed in an upcoming paper.  
+This project provides a time series prediction framework specifically designed for microbial OTU (Operational Taxonomic Unit) abundance tables. With this framework, users can analyze microbiota data from different subjects and predict changes in microbial abundance at future time points.
 
 ## Data Sources
 
