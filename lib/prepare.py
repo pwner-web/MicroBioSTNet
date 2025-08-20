@@ -22,6 +22,11 @@ def co_occurence(bindir, input_file, subject):
         data.append(list(map(float, filecontent[i].replace("\n", "").split(",")[1:])))
 
     data = np.array(list(data))
+
+    data += 1e-6  
+    geom_mean = np.exp(np.mean(np.log(data), axis=1, keepdims=True))
+    data = np.log(data/geom_mean)
+    
     spearman_matrix = np.zeros((len(data), len(data)))
     spearman_p = np.zeros((len(data), len(data)))
     for i, j in combinations(range(len(data)), 2):
@@ -140,4 +145,5 @@ def get_(bindir, input_file, subject, num_timesteps_input, num_timesteps_output,
          pk.dump((training_input, training_target, torch.from_numpy(val_input), torch.from_numpy(val_target), means, stds), fd)
 
 if __name__ == "__main__":
+
     print("exit")
